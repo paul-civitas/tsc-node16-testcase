@@ -4,7 +4,8 @@
   "description": "Test case for ts issue",
   "main": "dist/index.js",
   "scripts": {
-    "test": "tsc --noemit"
+    "test": "tsc --noemit",
+    "build": "tsc"
   },
   "author": "Paul Dejean",
   "license": "ISC",
