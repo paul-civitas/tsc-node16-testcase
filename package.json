@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Test case for ts issue",
   "main": "dist/index.js",
+  "type": "module",
   "scripts": {
     "test": "tsc --noemit",
     "build": "tsc"
@@ -11,7 +12,8 @@
   "license": "ISC",
   "dependencies": {
     "@types/node": "^20.12.4",
-    "axios": "^1.6.8",
+    "@types/stream-json": "^1.7.7",
+    "stream-json": "^1.8.0",
     "typescript": "^5.4.3"
   }
 }
