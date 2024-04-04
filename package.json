@@ -1,0 +1,14 @@
+{
+  "name": "testcase",
+  "version": "1.0.0",
+  "description": "Test case for ts issue",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "tsc --noemit"
+  },
+  "author": "Paul Dejean",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^5.4.3"
+  }
+}
