@@ -1,11 +1,12 @@
-import Example from './Example.js'
+import Example from './Example.mjs'
+import SecondExample from './SecondExample.cjs'
 
 async function main() {
-    const thing : Example = new Example();
+    const redfish : Example = new Example()
+    const bluefish : SecondExample = new SecondExample()
 
-    thing.getThing()
-
-    console.log("Hello world")
+    redfish.getThing()
+    bluefish.getThing()
 }
 
 await main()
